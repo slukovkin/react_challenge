@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid teal;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.btn_color {
+  background: rgb(27, 27, 250);
+  color: whitesmoke;
+}
