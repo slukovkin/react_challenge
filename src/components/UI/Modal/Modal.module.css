@@ -1,0 +1,35 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.content {
+  position: relative;
+  width: 45%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.title {
+  padding: 20px;
+  color: white;
+  background: darkblue;
+}
+
+.content_body {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn_color {
+  position: relative;
+  background: rgb(81, 26, 248);
+  color: white ;
+}
