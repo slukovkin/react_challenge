@@ -18,3 +18,7 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+.App {
+  margin-top: 50px;
+}

@@ -21,7 +21,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='App'>
       <h1>Challenge №1</h1>
       <Form create={addNewUser} modal={isModal} />
       {users.length !== 0
