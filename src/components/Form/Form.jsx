@@ -21,7 +21,7 @@ export const Form = ({ create, modal }) => {
       setName('')
       setAge('')
       create({
-        id: Date.now(),
+        id: Date.now().toString(),
         name: name,
         age: age
       })
@@ -29,8 +29,6 @@ export const Form = ({ create, modal }) => {
       modal(true)
     }
   }
-
-
 
   return (
     <form className={cl.form} onSubmit={submitDataForm}>
